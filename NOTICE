@@ -1,0 +1,12 @@
+Rust desktop application template
+Licensed under the MIT License or the Apache License, Version 2.0, at your option.
+See LICENSE-MIT and LICENSE-APACHE.
+
+Retained infrastructure derives from WordCraft, Copyright (c) 2026 ArtCraft Team and the
+WordCraft contributors. Original copyright notices are preserved in LICENSE-MIT. These are
+historical attribution references; the template contains no original application's domain code
+or branded assets.
+
+Rust dependencies are fetched through Cargo and retain their respective licenses. The UI uses
+eframe/egui default resources. Review dependency licenses and include required notices when
+packaging your own application. No additional fonts, images or branding are bundled here.

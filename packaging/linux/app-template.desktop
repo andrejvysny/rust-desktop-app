@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Application Template
+Comment=Command-driven native desktop application
+Exec=app
+Terminal=false
+Categories=Utility;

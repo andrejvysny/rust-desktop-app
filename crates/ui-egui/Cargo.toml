@@ -1,0 +1,20 @@
+[package]
+name = "app-ui-egui"
+description = "Thin, command-driven egui frontend"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+app-core.workspace = true
+app-engine.workspace = true
+app-platform.workspace = true
+egui.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]
+egui_kittest.workspace = true

@@ -1,0 +1,18 @@
+[package]
+name = "app-mcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+app-core = { workspace = true }
+app-platform = { workspace = true }
+serde_json = { workspace = true }
+
+[dev-dependencies]
+app-testkit = { workspace = true }
